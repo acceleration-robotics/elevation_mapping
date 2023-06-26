@@ -1,0 +1,57 @@
+
+Published topics:
+ * /rosout_agg [rosgraph_msgs/Log] 1 publisher
+ * /rosout [rosgraph_msgs/Log] 6 publishers
+ * /clock [rosgraph_msgs/Clock] 1 publisher
+ * /imu/data_raw [sensor_msgs/Imu] 1 publisher
+ * /imu/mag [sensor_msgs/MagneticField] 1 publisher
+ * /imu/data [sensor_msgs/Imu] 1 publisher
+ * /os1_node/imu_packets [ouster_ros/PacketMsg] 1 publisher
+ * /os1_node/lidar_packets [ouster_ros/PacketMsg] 1 publisher
+ * /os1_cloud_node/imu [sensor_msgs/Imu] 1 publisher
+ * /odometry/filtered [nav_msgs/Odometry] 1 publisher
+ * /os1_cloud_node/points [sensor_msgs/PointCloud2] 1 publisher
+ * /img_node/range_image [sensor_msgs/Image] 1 publisher
+ * /img_node/noise_image [sensor_msgs/Image] 1 publisher
+ * /img_node/intensity_image [sensor_msgs/Image] 1 publisher
+ * /nerian_stereo/left_image [sensor_msgs/Image] 1 publisher
+ * /nerian_stereo/right_image [sensor_msgs/Image] 1 publisher
+ * /tf_static [tf2_msgs/TFMessage] 1 publisher
+ * /tf [tf2_msgs/TFMessage] 1 publisher
+ * /pylon_camera_node/image_raw [sensor_msgs/Image] 1 publisher
+ * /vectornav/IMU [sensor_msgs/Imu] 1 publisher
+ * /vectornav/GPS [sensor_msgs/NavSatFix] 1 publisher
+ * /left_drive/status/battery_current [std_msgs/Float64] 1 publisher
+ * /left_drive/status/battery_voltage [std_msgs/Float64] 1 publisher
+ * /warthog_velocity_controller/cmd_vel [geometry_msgs/Twist] 1 publisher
+ * /warthog_velocity_controller/odom [nav_msgs/Odometry] 1 publisher
+ * /vectornav/Mag [sensor_msgs/MagneticField] 1 publisher
+ * /vectornav/Temp [sensor_msgs/Temperature] 1 publisher
+ * /vectornav/Odom [nav_msgs/Odometry] 1 publisher
+ * /vectornav/Pres [sensor_msgs/FluidPressure] 1 publisher
+ * /right_drive/status/battery_voltage [std_msgs/Float64] 1 publisher
+ * /right_drive/status/battery_current [std_msgs/Float64] 1 publisher
+ * /velodyne_points [sensor_msgs/PointCloud2] 1 publisher
+ * /mcu/status [warthog_msgs/Status] 1 publisher
+ * /pose [geometry_msgs/PoseWithCovarianceStamped] 1 publisher
+ * /elevation_map_raw_visualization/elevation_cloud [sensor_msgs/PointCloud2] 1 publisher
+ * /elevation_map_fused_visualization/elevation_cloud [sensor_msgs/PointCloud2] 1 publisher
+ * /elevation_map_raw_visualization/sigma_cloud [sensor_msgs/PointCloud2] 1 publisher
+ * /elevation_map_fused_visualization/upper_bound_cloud [sensor_msgs/PointCloud2] 1 publisher
+ * /elevation_map_raw_visualization/map_region [visualization_msgs/Marker] 1 publisher
+ * /elevation_map_fused_visualization/lower_bound_cloud [sensor_msgs/PointCloud2] 1 publisher
+ * /elevation_map_fused_visualization/map_region [visualization_msgs/Marker] 1 publisher
+ * /elevation_mapping/elevation_map_raw [grid_map_msgs/GridMap] 1 publisher
+ * /elevation_mapping/elevation_map [grid_map_msgs/GridMap] 1 publisher
+ * /elevation_mapping/visibility_cleanup_map [grid_map_msgs/GridMap] 1 publisher
+
+Subscribed topics:
+ * /rosout [rosgraph_msgs/Log] 1 subscriber
+ * /odometry/filtered [nav_msgs/Odometry] 1 subscriber
+ * /tf [tf2_msgs/TFMessage] 2 subscribers
+ * /tf_static [tf2_msgs/TFMessage] 2 subscribers
+ * /os1_cloud_node/points [sensor_msgs/PointCloud2] 1 subscriber
+ * /pose [geometry_msgs/PoseWithCovarianceStamped] 1 subscriber
+ * /elevation_map_fused_visualization/elevation_cloud [sensor_msgs/PointCloud2] 1 subscriber
+ * /elevation_mapping/elevation_map [grid_map_msgs/GridMap] 1 subscriber
+
